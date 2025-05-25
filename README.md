@@ -66,9 +66,3 @@
 - A good feature to add will be the dates being marked, the ones on which there are events planned
 ### Reminders:
 - Reminding the students about upcoming deadlines will be an useful feature to add
-
-## Contact:
-### Anubhab Ray
-- 200050010@iitb.ac.in
-### Mani Praneeth Chilukuri
-- 200050028@iitb.ac.in
