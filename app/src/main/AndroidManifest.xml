@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studyplanapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Outlab9">
+        <activity
+            android:name="com.example.studyplanapp.AddActivityLe"
+            android:exported="true"
+            android:label="Add Lecture"
+            android:parentActivityName="com.example.studyplanapp.MainActivity"/>
+        <activity
+            android:name="com.example.studyplanapp.UpdateActivityLE"
+            android:exported="true"
+            android:parentActivityName="com.example.studyplanapp.MainActivity"/>
+        <activity
+            android:name="com.example.studyplanapp.AddActivityEx"
+            android:exported="true"
+            android:label="Add Exam"
+            android:parentActivityName="com.example.studyplanapp.MainActivity" />
+        <activity
+            android:name="com.example.studyplanapp.UpdateActivityEX"
+            android:exported="true"
+            android:parentActivityName="com.example.studyplanapp.MainActivity" />
+        <activity
+            android:name="com.example.studyplanapp.UpdateActivityAS"
+            android:exported="true"
+            android:label="Update Assignment"
+            android:parentActivityName="com.example.studyplanapp.MainActivity" />
+        <activity
+            android:name="com.example.studyplanapp.UpdateActivitySP"
+            android:exported="true"
+            android:label="Update Study Plan"
+            android:parentActivityName="com.example.studyplanapp.MainActivity" />
+        <activity
+            android:name="com.example.studyplanapp.AddActivityA"
+            android:exported="true"
+            android:label="@string/assignments_database_string"
+            android:parentActivityName="com.example.studyplanapp.MainActivity" />
+        <activity
+            android:name="com.example.studyplanapp.AddActivity"
+            android:exported="true"
+            android:label="Add Event"
+            android:parentActivityName="com.example.studyplanapp.MainActivity" />
+        <activity
+            android:name="com.example.studyplanapp.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Outlab9.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
